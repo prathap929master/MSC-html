@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MES College Style Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    /* Navbar */
+    nav {
+      background-color: #a13434;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    nav ul li {
+      position: relative;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      display: block;
+    }
+
+    nav ul li:hover {
+      background-color: #822828;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('images.jpg') no-repeat center center/cover;
+      height: 400px;
+      position: relative;
+    }
+
+    .hero h1 {
+      color: white;
+      position: absolute;
+      bottom: 20px;
+      left: 50px;
+      font-size: 36px;
+      background: rgba(0,0,0,0.5);
+      padding: 10px 20px;
+    }
+
+    /* Stats Section */
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      background-color: #004d66;
+      color: white;
+      padding: 40px 0;
+      flex-wrap: wrap;
+    }
+
+    .stat {
+      text-align: center;
+      margin: 10px;
+      flex: 1;
+      min-width: 150px;
+      border: 1px solid #ddd;
+      padding: 20px;
+    }
+
+    .stat h2 {
+      font-size: 28px;
+    }
+
+    .stat p {
+      font-size: 16px;
+      margin-top: 5px;
+    }
+
+    /* About Section */
+    .about {
+      padding: 40px 10%;
+      background-color: #c14545;
+      color: white;
+    }
+
+    .about h2 {
+      border-bottom: 2px solid white;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #004d66;
+      color: white;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 40px 20px;
+    }
+
+    footer div {
+      margin: 10px;
+      min-width: 200px;
+    }
+
+    footer h3 {
+      border-bottom: 1px solid #fff;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    footer ul li {
+      margin: 5px 0;
+    }
+
+    footer ul li a {
+      color: #ddd;
+      text-decoration: none;
+    }
+
+    footer ul li a:hover {
+      color: white;
+    }
+
+    .copyright {
+      background-color: #033746;
+      color: #ccc;
+      text-align: center;
+      padding: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .stats {
+        flex-direction: column;
+      }
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Academics</a></li>
+      <li><a href="#">Departments</a></li>
+      <li><a href="#">IQAC</a></li>
+      <li><a href="#">Facilities</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>MES College Marampally</h1>
+  </div>
+
+  <!-- Stats Section -->
+  <div class="stats">
+    <div class="stat">
+      <h2>3000+</h2>
+      <p>Students</p>
+    </div>
+    <div class="stat">
+      <h2>30</h2>
+      <p>UG & PG Programs</p>
+    </div>
+    <div class="stat">
+      <h2>28</h2>
+      <p>Years of History</p>
+    </div>
+    <div class="stat">
+      <h2>7</h2>
+      <p>B.Voc Programs</p>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="about">
+    <h2>About MES Marampally</h2>
+    <p>MES College Marampally is a government-aided college affiliated with Mahatma Gandhi University, Kottayam. Established in 1995, the college has been reaccredited by NAAC with an A+ Grade (CGPA 3.39), in its IV cycle.</p>
+    <p>The college is set in lush green surroundings near the river Periyar, close to Cochin International Airport. It offers a significant number of vocational and technical programs aligned with job market demands.</p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div>
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Tenders & Notices</a></li>
+        <li><a href="#">Brochure</a></li>
+        <li><a href="#">Academic Calendar</a></li>
+        <li><a href="#">Gate Pass</a></li>
+        <li><a href="#">Downloads</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Logins</h3>
+      <ul>
+        <li><a href="#">Faculty Login</a></li>
+        <li><a href="#">Student Login</a></li>
+        <li><a href="#">Alumni Login</a></li>
+        <li><a href="#">Moodle Login</a></li>
+        <li><a href="#">Library Login</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Contact Us</h3>
+      <p>MES College Marampally<br>
+         North Vazhakulam, Aluva<br>
+         Ernakulam (Dist), Kerala, India<br>
+         Pin: 683 105<br><br>
+         Phone: +91 484 2677104<br>
+         Email: mail@mesmarampally.org
+      </p>
+    </div>
+  </footer>
+
+  <div class="copyright">
+    &copy; 2025 MES College Marampally | All rights reserved.
+  </div>
+
+</body>
+</html>
