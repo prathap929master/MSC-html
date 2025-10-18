@@ -11,11 +11,12 @@ public class Hello {
     }
 }
 
-print.java
+Circle.java
 
+// File: Circle.java
 import Pack1.Hello;  // Import the class from the package
 
-class Print {
+class Circle {
     public static void main(String[] args) {
         Hello obj = new Hello();
         obj.display();  // Call the display method
